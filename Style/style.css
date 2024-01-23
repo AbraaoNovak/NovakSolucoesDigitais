@@ -112,6 +112,55 @@ html {
     border-radius: 5px;
     color: black;
 }
+.shape-divider {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 82px;
+}
+
+.shape-divider .shape-fill {
+    fill: #FFFFFF;
+}
+.segunda-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nossos-servicos {
+    color: #FFF;
+    margin-top: 5rem;
+
+}
+.servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upgrade-ssd, .upgrade-memoria, .upgrade-bateria, .limpeza {
+    width: 280px;
+    margin: 2rem 0 0 0;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+
+.descricao {
+    width: 230px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+}
 @media screen and (max-width: 800px){
     .navigation {
         padding: 18px 20px
