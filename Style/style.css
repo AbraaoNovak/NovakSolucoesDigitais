@@ -94,6 +94,8 @@ html {
     text-align: center;
     justify-content: center;
     color: #FFF;
+    width: 400px;
+    padding: 0 2rem;
 }
 .image-principal {
     width: 100%;
