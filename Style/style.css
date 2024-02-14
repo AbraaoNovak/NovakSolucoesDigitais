@@ -148,18 +148,52 @@ html {
     align-items: center;
     flex-direction: column;
 }
-.upgrade-ssd, .upgrade-memoria, .upgrade-bateria, .limpeza {
-    width: 280px;
+.upgrade-ssd, .upgrade-memoria, .upgrade-bateria, .limpeza, .imagem-compromisso {
+    width: 100%;
     margin: 2rem 0 0 0;
     overflow: hidden;
     transition: 0.5s all;
 }
 
 .descricao {
-    width: 230px;
+    width: 90%;
+    margin-top: 2rem;
     justify-content: center;
-    text-align: center;
     color: #FFF;
+}
+
+.terceira-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.compromisso {
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    margin: 2rem 0 1rem 0;
+}
+.texto-compromisso {
+    color: #FFF;
+    width: 90%;
+}
+.rodape {
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rodape-texto {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 2.5rem;
+    color: #FFF;
+    text-align: center;
+}
+.rodape-logo {
+    margin-top: -2rem;
+    margin-left: 2rem;
 }
 @media screen and (max-width: 800px){
     .navigation {
@@ -201,7 +235,7 @@ html {
     }
     .nav-menu.ativo {
         right: 0;
-        height: 36%;
+        height: 30%;
     }
     .nav-item {
         margin: 10px 0;
